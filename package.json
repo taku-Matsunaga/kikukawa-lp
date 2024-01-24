@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "tailgrids": "^2.1.0"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
   }
 }
