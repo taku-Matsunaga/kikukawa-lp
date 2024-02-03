@@ -840,6 +840,10 @@ input[type="radio"]:checked ~ .box .circle background {
   width: 100%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -874,6 +878,18 @@ input[type="radio"]:checked ~ .box .circle background {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-10 {
+  max-width: 2.5rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-screen-lg {
+  max-width: 960px;
 }
 
 .-translate-y-1\/2 {
@@ -916,6 +932,34 @@ input[type="radio"]:checked ~ .box .circle background {
 
 .gap-\[14px\] {
   gap: 14px;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -966,6 +1010,11 @@ input[type="radio"]:checked ~ .box .circle background {
   border-style: dashed;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(33 43 54 / var(--tw-border-opacity));
+}
+
 .border-gray-3 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
@@ -979,10 +1028,6 @@ input[type="radio"]:checked ~ .box .circle background {
 .border-stroke {
   --tw-border-opacity: 1;
   border-color: rgb(223 228 234 / var(--tw-border-opacity));
-}
-
-.border-transparent {
-  border-color: transparent;
 }
 
 .bg-body-color {
@@ -1019,13 +1064,17 @@ input[type="radio"]:checked ~ .box .circle background {
   background-color: rgb(19 194 150 / var(--tw-bg-opacity));
 }
 
-.bg-transparent {
-  background-color: transparent;
+.bg-\[\] {
+  background-color: ;
 }
 
-.bg-white {
+.bg-\[FCFCFC\] {
+  background-color: FCFCFC;
+}
+
+.bg-\[\#FCFCFC\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(252 252 252 / var(--tw-bg-opacity));
 }
 
 .p-3 {
@@ -1103,6 +1152,11 @@ input[type="radio"]:checked ~ .box .circle background {
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pb-10 {
@@ -1191,6 +1245,11 @@ input[type="radio"]:checked ~ .box .circle background {
   line-height: 1rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1238,9 +1297,9 @@ input[type="radio"]:checked ~ .box .circle background {
   color: rgb(55 88 249 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-textBlack {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(30 52 71 / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -1362,11 +1421,6 @@ input[type="radio"]:checked ~ .box .circle background {
   color: rgb(55 88 249 / var(--tw-text-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:shadow-3:hover {
   --tw-shadow: 0px 4px 12px 0px rgba(13, 10, 44, 0.06);
   --tw-shadow-colored: 0px 4px 12px 0px var(--tw-shadow-color);
@@ -1402,6 +1456,18 @@ input[type="radio"]:checked ~ .box .circle background {
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:gap-16 {
+    gap: 4rem;
   }
 
   .sm\:p-12 {
@@ -1474,6 +1540,10 @@ input[type="radio"]:checked ~ .box .circle background {
 
   .md\:max-w-\[50px\] {
     max-width: 50px;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:p-7 {
@@ -1574,10 +1644,6 @@ input[type="radio"]:checked ~ .box .circle background {
 
   .lg\:justify-end {
     justify-content: flex-end;
-  }
-
-  .lg\:bg-transparent {
-    background-color: transparent;
   }
 
   .lg\:px-6 {
@@ -1708,26 +1774,9 @@ input[type="radio"]:checked ~ .box .circle background {
     background-color: rgb(17 25 40 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-white\/5 {
-    background-color: rgb(255 255 255 / 0.05);
-  }
-
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
   .dark\:shadow-\[0px_20px_95px_0px_rgba\(0\2c 0\2c 0\2c 0\.30\)\] {
     --tw-shadow: 0px 20px 95px 0px rgba(0,0,0,0.30);
     --tw-shadow-colored: 0px 20px 95px 0px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-}
-
-@media (min-width: 960px) {
-  @media (prefers-color-scheme: dark) {
-    .lg\:dark\:bg-transparent {
-      background-color: transparent;
-    }
   }
 }
