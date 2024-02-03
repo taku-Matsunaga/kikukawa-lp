@@ -21,6 +21,9 @@ module.exports = {
         'bold': 700,
         'extrabold': 800,
         'black': 900,
+      },
+      backgroundImage: {
+        'green-gradient': 'linear-gradient(114deg, #96BDDA 5.33%, #27B8B8 47.66%, #96BDDA 99.84%)',
       }
     },
   },
