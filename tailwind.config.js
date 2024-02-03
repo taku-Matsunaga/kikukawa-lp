@@ -4,8 +4,23 @@ module.exports = {
   theme: {
     colors: {
       textBlack: '#1E3447',
+      textWhite: '#FFFFFF',
+      blueMain: '#171C61',
+      blueSub: '#91CBD8',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Noto Sans JP', 'sans-serif']
+      },
+      fontWeight: {
+        'light': 300,
+        'normal': 400,
+        'medium': 500,
+        'bold': 700,
+        'extrabold': 800,
+        'black': 900,
+      }
+    },
   },
   plugins: [require("tailgrids/plugin")],
 
