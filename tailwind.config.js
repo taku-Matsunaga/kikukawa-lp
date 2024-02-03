@@ -8,6 +8,7 @@ module.exports = {
       textWhite: '#FFFFFF',
       blueMain: '#171C61',
       blueSub: '#91CBD8',
+      blueBg: '#E4EAEE',
       whiteMain: '#FFFFFF',
     },
     extend: {
