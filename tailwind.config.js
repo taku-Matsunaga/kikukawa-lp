@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     colors: {
       textBlack: '#1E3447',
+      textGray: '#637381',
       textWhite: '#FFFFFF',
       blueMain: '#171C61',
       blueSub: '#91CBD8',
+      whiteMain: '#FFFFFF',
     },
     extend: {
       fontFamily: {
