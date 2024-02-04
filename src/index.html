@@ -52,7 +52,7 @@
                 x-transition
                 :class="!navbarOpen && 'hidden'"
                 id="navbarCollapse"
-                class="lg:bg-transparent absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-whiteMain px-6 py-5 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11">
+                class="md:bg-transparent absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-whiteMain px-6 py-5 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11">
                 <ul class="block lg:flex">
                   <li>
                     <a
@@ -106,28 +106,31 @@
     <!-- ====== Navbar Section End -->
 
     <!-- Heroエリア -->
-    <div class="relative pb-[110px] pt-[120px] lg:pt-[150px]">
-      <div class="container mx-auto">
+    <div class="relative overflow-hidden pb-[110px] pt-[120px] lg:pt-[150px]">
+      <span
+        class="bg-kv-gradient shadow-kv absolute left-[-450px] top-[-450px] -z-10 h-[1100px] w-[1100px] rounded-full"></span>
+      <div class="3xl:container mx-auto">
         <div class="-mx-4 flex flex-wrap items-center">
-          <div class="w-full px-4 lg:w-5/12">
-            <div class="hero-content">
-              <p class="mb-8 max-w-[480px] text-base text-body-color">
+          <div class="w-full px-4 lg:w-6/12">
+            <div class="hero-content mx-4 sm:ml-12">
+              <h1 class="sm:text-md mb-8 w-full text-sm text-textBlack">
                 キクカワエンタープライズ株式会社 採用特設サイト
-              </p>
-              <h1
-                class="mb-5 text-4xl font-bold !leading-[1.208] text-textBlack sm:text-[42px] lg:text-[40px] xl:text-5xl">
+              </h1>
+              <p
+                class="mb-5 text-2xl font-bold !leading-[1.208] text-textBlack sm:text-[42px] lg:text-[40px] xl:text-5xl">
                 KIKUKAWAで見つけよう、<br />
                 わたしのミライ。
-              </h1>
-              <p class="mb-8 max-w-[480px] text-base text-body-color">
+              </p>
+              <p
+                class="text-md mb-8 max-w-[480px] font-bold text-textBlack sm:text-lg">
                 あなたの情熱、私たちと共有しませんか？
               </p>
             </div>
           </div>
-          <div class="hidden px-4 lg:block lg:w-1/12"></div>
           <div class="w-full px-4 lg:w-6/12">
             <div class="lg:ml-auto lg:text-right">
-              <div class="relative z-10 inline-block pt-11 lg:pt-0">
+              <div
+                class="relative z-10 ml-4 inline-block pt-11 sm:ml-0 lg:pt-0">
                 <img
                   src="./assets/img/hero.png"
                   alt="hero"
