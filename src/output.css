@@ -1085,6 +1085,10 @@ input[type="radio"]:checked ~ .box .circle background {
   gap: 2.25rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1475,6 +1479,21 @@ input[type="radio"]:checked ~ .box .circle background {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.\!text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+.\!text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+.\!text-base {
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
 }
 
 .font-black {
@@ -1875,6 +1894,10 @@ input[type="radio"]:checked ~ .box .circle background {
 
   .lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  .lg\:bg-transparent {
+    background-color: transparent;
   }
 
   .lg\:px-6 {
