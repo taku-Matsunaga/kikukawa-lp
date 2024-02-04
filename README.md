@@ -1,6 +1,11 @@
 # kikukawa-lp
 
 # 立ち上げ
+git cloneした場合は以下のコマンドで必要なパッケージをインストールしてください。
+
+```
+npm install
+```
 
 通常のLive Serverなどで確認可能。
 
