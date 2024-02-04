@@ -50,33 +50,33 @@
                 x-transition
                 :class="!navbarOpen && 'hidden'"
                 id="navbarCollapse"
-                class="bg-white lg:bg-transparent lg:dark:bg-transparent absolute right-4 top-full w-full max-w-[250px] rounded-lg px-6 py-5 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11">
+                class="lg:bg-transparent lg:dark:bg-transparent absolute right-4 top-full w-full max-w-[250px] rounded-lg px-6 py-5 shadow transition-all lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none xl:ml-11">
                 <ul class="block lg:flex">
                   <li>
                     <a
                       href="javascript:void(0)"
-                      class="flex py-2 text-base font-medium text-dark lg:ml-10 lg:inline-flex">
+                      class="flex py-2 text-base font-medium text-textBlack lg:ml-10 lg:inline-flex">
                       会社概要
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:void(0)"
-                      class="flex py-2 text-base font-medium text-dark lg:ml-10 lg:inline-flex">
+                      class="flex py-2 text-base font-medium text-textBlack lg:ml-10 lg:inline-flex">
                       メッセージ
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:void(0)"
-                      class="flex py-2 text-base font-medium text-dark lg:ml-10 lg:inline-flex">
+                      class="flex py-2 text-base font-medium text-textBlack lg:ml-10 lg:inline-flex">
                       社員インタビュー
                     </a>
                   </li>
                   <li>
                     <a
                       href="javascript:void(0)"
-                      class="flex py-2 text-base font-medium text-dark lg:ml-10 lg:inline-flex">
+                      class="flex py-2 text-base font-medium text-textBlack lg:ml-10 lg:inline-flex">
                       募集職種
                     </a>
                   </li>
@@ -106,7 +106,7 @@
                 キクカワエンタープライズ株式会社 採用特設サイト
               </p>
               <h1
-                class="mb-5 text-4xl font-bold !leading-[1.208] text-dark sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                class="mb-5 text-4xl font-bold !leading-[1.208] text-textBlack sm:text-[42px] lg:text-[40px] xl:text-5xl">
                 KIKUKAWAで見つけよう、<br />
                 わたしのミライ。
               </h1>
@@ -143,7 +143,7 @@
             <div class="w-full">
               <a
                 href="javascript:void(0)"
-                class="bg-white mb-8 flex items-center justify-between rounded-lg border border-black px-4 py-6 shadow-1 duration-300 hover:shadow-3">
+                class="mb-8 flex items-center justify-between rounded-lg border border-black px-4 py-6 shadow-1 duration-300 hover:shadow-3">
                 <div class="flex flex-col gap-2">
                   <p class="text-sm font-medium leading-relaxed text-textBlack">
                     2024.12.15
@@ -727,7 +727,7 @@
                 <div class="text-center">
                   <a
                     href="javascript:void(0)"
-                    class="inline-flex w-60 items-center justify-between rounded-full border border-dark px-6 py-2 text-center text-sm font-medium text-textBlack hover:bg-gray-2 disabled:border-gray-3 disabled:bg-gray-3 disabled:text-dark-5">
+                    class="disabled:text-textBlack-5 inline-flex w-60 items-center justify-between rounded-full border border-dark px-6 py-2 text-center text-sm font-medium text-textBlack hover:bg-gray-2 disabled:border-gray-3 disabled:bg-gray-3">
                     <span class="w-full">詳しく見る</span>
                     <span
                       class="material-symbols-outlined text-sm text-textBlack">
@@ -832,7 +832,7 @@
         <div class="text-center">
           <a
             href="javascript:void(0)"
-            class="inline-flex w-60 items-center justify-between rounded-full border border-dark px-6 py-2 text-center text-sm font-medium text-textBlack hover:bg-gray-2 disabled:border-gray-3 disabled:bg-gray-3 disabled:text-dark-5">
+            class="disabled:text-textBlack-5 inline-flex w-60 items-center justify-between rounded-full border border-dark px-6 py-2 text-center text-sm font-medium text-textBlack hover:bg-gray-2 disabled:border-gray-3 disabled:bg-gray-3">
             <span class="w-full">詳しく見る</span>
             <span class="material-symbols-outlined text-sm text-textBlack">
               open_in_new
@@ -2335,38 +2335,25 @@
      openFaq2: false, 
      openFaq3: false, 
      openFaq4: false, 
-     openFaq5: false, 
-     openFaq6: false
      }
      "
-      class="bg-white relative z-20 overflow-hidden pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+      class="relative z-20 overflow-hidden pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
       <div class="container mx-auto">
-        <div class="-mx-4 flex flex-wrap">
-          <div class="w-full px-4">
-            <div class="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-              <span class="mb-2 block text-lg font-semibold text-primary">
-                FAQ
-              </span>
-              <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
-                Any Questions? Look Here
-              </h2>
-              <p class="text-base text-body-color">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
-              </p>
-            </div>
-          </div>
+        <div class="mb-9 flex flex-wrap justify-center">
+          <h2
+            class="mb-4 inline-block rounded border-l-8 border-blueSub bg-blueMain px-9 py-1 text-lg font-semibold text-textWhite">
+            よくある質問
+          </h2>
         </div>
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4 lg:w-1/2">
             <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
+              class="mb-8 w-full rounded-lg bg-whiteMain p-4 shadow-lg sm:p-8 lg:px-6 xl:px-8">
               <button
-                class="faq-btn flex w-full text-left"
+                class="faq-btn flex w-full items-center text-left"
                 @click="openFaq1 = !openFaq1">
                 <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-[#91CBD84D] text-blueMain">
                   <svg
                     :class="openFaq1 && 'rotate-180'"
                     width="22"
@@ -2380,27 +2367,27 @@
                   </svg>
                 </div>
                 <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
+                  <h3 class="text-md text-mainBlack font-semibold">
+                    新入社員研修について教えてください
+                  </h3>
                 </div>
               </button>
               <div x-show="openFaq1" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                <p
+                  class="py-3 text-sm font-normal leading-relaxed text-textGray">
+                  最初の1週間～10日間は、一社会人として、基本的なビジネスマナーや会社について理解を深めるための研修を行います。
+                  その後は職種別に数ヶ月間研修を行います。
+                  例えば、開発設計職や製造部門の方は当社製品を覚えていただくために、製造工程や加工、配線、道具の使い方などを丁寧に学んでいきます。開発設計職は概ね１〜２年後に配属となりますが、その後も先輩について、学びながら仕事をしていただきます。
                 </p>
               </div>
             </div>
             <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
+              class="mb-8 w-full rounded-lg bg-whiteMain p-4 shadow-lg sm:p-8 lg:px-6 xl:px-8">
               <button
-                class="faq-btn flex w-full text-left"
+                class="faq-btn flex w-full items-center text-left"
                 @click="openFaq2 = !openFaq2">
                 <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-[#91CBD84D] text-blueMain">
                   <svg
                     :class="openFaq2 && 'rotate-180'"
                     width="22"
@@ -2414,27 +2401,27 @@
                   </svg>
                 </div>
                 <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
+                  <h3 class="text-md text-mainBlack font-semibold">
+                    自己研鑽に関する支援制度はありますか
+                  </h3>
                 </div>
               </button>
               <div x-show="openFaq2" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                <p
+                  class="py-3 text-sm font-normal leading-relaxed text-textGray">
+                  業務に関する資格については、取得費用を全額負担しています。
                 </p>
               </div>
             </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
             <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
+              class="mb-8 w-full rounded-lg bg-whiteMain p-4 shadow-lg sm:p-8 lg:px-6 xl:px-8">
               <button
-                class="faq-btn flex w-full text-left"
+                class="faq-btn flex w-full items-center text-left"
                 @click="openFaq3 = !openFaq3">
                 <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-[#91CBD84D] text-blueMain">
                   <svg
                     :class="openFaq3 && 'rotate-180'"
                     width="22"
@@ -2448,29 +2435,25 @@
                   </svg>
                 </div>
                 <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
+                  <h3 class="text-md text-mainBlack font-semibold">
+                    勤務地は本社と工場のある伊勢市以外にもありますか？
+                  </h3>
                 </div>
               </button>
               <div x-show="openFaq3" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                <p
+                  class="py-3 text-sm font-normal leading-relaxed text-textGray">
+                  本社・工場（伊勢市朝熊町）および営業については、東京・大阪・名古屋・福岡にも拠点があります。各拠点はホームページからもご覧いただけます。
                 </p>
               </div>
             </div>
-          </div>
-          <div class="w-full px-4 lg:w-1/2">
             <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
+              class="mb-8 w-full rounded-lg bg-whiteMain p-4 shadow-lg sm:p-8 lg:px-6 xl:px-8">
               <button
-                class="faq-btn flex w-full text-left"
+                class="faq-btn flex w-full items-center text-left"
                 @click="openFaq4 = !openFaq4">
                 <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-[#91CBD84D] text-blueMain">
                   <svg
                     :class="openFaq4 && 'rotate-180'"
                     width="22"
@@ -2484,85 +2467,16 @@
                   </svg>
                 </div>
                 <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
+                  <h3 class="text-md text-mainBlack font-semibold">
+                    勤務時間の規定を教えてください。
+                  </h3>
                 </div>
               </button>
               <div x-show="openFaq4" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
-              <button
-                class="faq-btn flex w-full text-left"
-                @click="openFaq5 = !openFaq5">
-                <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
-                  <svg
-                    :class="openFaq5 && 'rotate-180'"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
-                      fill="currentColor" />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
-                </div>
-              </button>
-              <div x-show="openFaq5" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
-                </p>
-              </div>
-            </div>
-            <div
-              class="bg-white mb-8 w-full rounded-lg p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)]">
-              <button
-                class="faq-btn flex w-full text-left"
-                @click="openFaq6 = !openFaq6">
-                <div
-                  class="dark:bg-white/5 mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
-                  <svg
-                    :class="openFaq6 && 'rotate-180'"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11 15.675C10.7937 15.675 10.6219 15.6062 10.45 15.4687L2.54374 7.69998C2.23436 7.3906 2.23436 6.90935 2.54374 6.59998C2.85311 6.2906 3.33436 6.2906 3.64374 6.59998L11 13.7844L18.3562 6.53123C18.6656 6.22185 19.1469 6.22185 19.4562 6.53123C19.7656 6.8406 19.7656 7.32185 19.4562 7.63123L11.55 15.4C11.3781 15.5719 11.2062 15.675 11 15.675Z"
-                      fill="currentColor" />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="mt-1 text-lg font-semibold text-dark">
-                    How long we deliver your first blog post?
-                  </h4>
-                </div>
-              </button>
-              <div x-show="openFaq6" class="faq-content pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                <p
+                  class="py-3 text-sm font-normal leading-relaxed text-textGray">
+                  本社
+                  は8:10～16:45、営業所勤務の場合は8:40～17:30（いずれも一日あたり7時間50分）となっています。
                 </p>
               </div>
             </div>
@@ -2599,32 +2513,27 @@
     <!-- ====== FAQ Section End -->
 
     <!-- ====== Call To Action Section Start -->
-    <section class="bg-white py-20 lg:py-[120px]">
-      <div class="container mx-auto">
+    <section class="">
+      <div class="w-full">
         <div
-          class="relative z-10 overflow-hidden rounded bg-primary px-8 py-12 md:p-[70px]">
-          <div class="-mx-4 flex flex-wrap items-center">
+          class="relative z-10 overflow-hidden bg-blueMain px-4 py-12 md:p-[70px]">
+          <div class="container mx-auto flex flex-wrap items-center">
             <div class="w-full px-4 lg:w-1/2">
-              <span class="text-white mb-4 block text-base font-medium">
-                Find Your Next Dream App
+              <span class="mb-4 block text-base font-medium text-textWhite">
+                KIKUKAWAで見つけよう<br />
+                わたしのミライ。
               </span>
               <h2
-                class="text-white mb-6 text-3xl font-bold leading-tight sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
-                <span class="xs:block"> Get started with </span>
-                <span>our free trial</span>
+                class="mb-6 text-3xl font-bold leading-tight text-textWhite sm:mb-8 sm:text-[40px]/[48px] lg:mb-0">
+                <span class="xs:block">エントリーはこちら</span>
               </h2>
             </div>
             <div class="w-full px-4 lg:w-1/2">
-              <div class="flex flex-wrap lg:justify-end">
+              <div class="flex flex-wrap justify-center lg:justify-end">
                 <a
                   href="javascript:void(0)"
-                  class="hover:bg-shadow-1 bg-white my-1 mr-4 inline-flex rounded-md px-7 py-3 text-base font-medium text-primary transition">
-                  Get Pro Version
-                </a>
-                <a
-                  href="javascript:void(0)"
-                  class="text-white font-mediums my-1 inline-flex rounded-md bg-secondary px-7 py-3 text-base transition hover:bg-opacity-90">
-                  Start Free Trial
+                  class="my-1 inline-flex rounded-full bg-blueSub px-10 py-3 text-base font-normal text-textWhite transition hover:bg-opacity-90">
+                  エントリーする
                 </a>
               </div>
             </div>

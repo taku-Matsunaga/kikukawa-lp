@@ -1205,6 +1205,19 @@ input[type="radio"]:checked ~ .box .circle background {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#91CBD84D\] {
+  background-color: #91CBD84D;
+}
+
+.bg-\[\#1234A6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 52 166 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
@@ -1527,6 +1540,11 @@ input[type="radio"]:checked ~ .box .circle background {
 .text-blueSub {
   --tw-text-opacity: 1;
   color: rgb(145 203 216 / var(--tw-text-opacity));
+}
+
+.text-whiteMain {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow {
