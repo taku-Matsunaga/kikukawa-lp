@@ -26,9 +26,11 @@ module.exports = {
       backgroundImage: {
         'green-gradient': 'linear-gradient(114deg, #96BDDA 5.33%, #27B8B8 47.66%, #96BDDA 99.84%)',
         'kv-gradient': "linear-gradient(135deg, #9EA7F7 32.36%, #91CBD8 79.42%)",
+        'message-gradient': 'linear-gradient(125deg, #91CBD8 21.73%, #9EA7F7 77.55%)',
       },
       boxShadow: {
         'kv': '12px 12px 20px 0px #91CBD8',
+        'message': '-12px -12px 20px 0px #91CBD8',
       },
       backgroundColor: {
         'transparent': 'transparent',
